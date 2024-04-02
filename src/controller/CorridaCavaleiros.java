@@ -104,11 +104,13 @@ public class CorridaCavaleiros extends Thread {
                 isClose=true;
                 }
             }
+
             if (portaEscolhida == 1){
                 System.out.println("O cavaleiro "+id+" Escolheu a porta certa, e conseguiu sair");
             }else {
                 System.out.println("O cavaleiro "+id+ " Foi de arrasta pra cima... F no chat");
             }
+
             portas[portaEscolhida] = -1;
 
         } catch (InterruptedException e) {
